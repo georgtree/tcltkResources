@@ -3,14 +3,14 @@ List of links for tcl/tk packages and resources that I found useful.
 Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
 
   - [Major sources](#major-sources)
-  - [Packages/extensions/libraries/tools](#packages/extensions/libraries/tools)
+  - [Packages/extensions/libraries/tools](#packages-extensions-libraries-tools)
     - [Console enchancement](#console-enchancement)
-    - [Special format files readers/writers](#special-format-files-readers/writers)
+    - [Special format files readers/writers](#special-format-files-readers-/writers)
     - [Network](#network)
     - [Documentation tools](#documentation-tools)
     - [Arguments processing](#arguments-processing)
     - [Plotting](#plotting)
-    - [Megawidget collections, Tk frameworks, OO-like widget libraries, alternative geometry managers](#megawidget-collections,-tk-frameworks,-oo-like-widget-libraries,-alternative-geometry-managers)
+    - [Megawidget collections, Tk frameworks, OO-like widget libraries, alternative geometry managers](#megawidget-collections--tk-frameworks--oo-like-widget-libraries--alternative-geometry-managers)
     - [Megawidgets](#megawidgets)
     - [Ttk themes](#ttk-themes)
     - [Math](#math)
