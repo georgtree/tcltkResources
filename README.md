@@ -10,7 +10,7 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
     - [Documentation tools](#documentation-tools)
     - [Arguments processing](#arguments-processing)
     - [Plotting](#plotting)
-    - [Megawidget collections, Tk frameworks, OO-like widget libraries, alternative geometry managers](#megawidget-collections--tk-frameworks--oo-like-widget-libraries--alternative-geometry-managers)
+    - [Megawidget collections, Tk frameworks, OO-like widget libraries, alternative geometry managers](#megawidget-collections-tk-frameworks-oo-like-widget-libraries-alternative-geometry-managers)
     - [Megawidgets](#megawidgets)
     - [Ttk themes](#ttk-themes)
     - [Math](#math)
