@@ -1,7 +1,8 @@
 # tcltkResources
 List of links for tcl/tk packages and resources that I found useful.
 Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
-
+:TOC_5:QUOTE:
+#+BEGIN_QUOTE
 - [[#Major sources][Major sources]]
 - [Packages/extensions/libraries/tools][Packages/extensions/libraries/tools]
   - [Console enchancement][Console enchancement]
@@ -19,7 +20,7 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
   - [Debugging][Debugging]
   - [PDF processing][PDF processing]
   - [Misc][Misc]
-  
+#+END_QUOTE  
 
 ## Major sources
 
