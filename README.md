@@ -1,26 +1,25 @@
 # tcltkResources
 List of links for tcl/tk packages and resources that I found useful.
 Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
-:TOC_5:QUOTE:
-#+BEGIN_QUOTE
-- [[#Major sources][Major sources]]
-- [Packages/extensions/libraries/tools][Packages/extensions/libraries/tools]
-  - [Console enchancement][Console enchancement]
-  - [Special format files readers/writers][Special format files readers/writers]
-  - [Network][Network]
-  - [Documentation tools][Documentation tools]
-  - [Arguments processing][Arguments processing]
-  - [Plotting][Plotting]
-  - [Megawidget collections, Tk frameworks, OO-like widget libraries, alternative geometry managers][Megawidget collections, Tk frameworks, OO-like widget libraries, alternative geometry managers]
-  - [Megawidgets][Megawidgets]
-  - [Ttk themes][Ttk themes]
-  - [Math][Math]
-  - [Foreign interface and wrapping of C functions][Foreign interface and wrapping of C functions]
-  - [OS API][OS API]
-  - [Debugging][Debugging]
-  - [PDF processing][PDF processing]
-  - [Misc][Misc]
-#+END_QUOTE  
+
+  - [Major sources](#major-sources)
+  - [Packages/extensions/libraries/tools](#packages/extensions/libraries/tools)
+    - [Console enchancement](#console-enchancement)
+    - [Special format files readers/writers](#special-format-files-readers/writers)
+    - [Network](#network)
+    - [Documentation tools](#documentation-tools)
+    - [Arguments processing](#arguments-processing)
+    - [Plotting](#plotting)
+    - [Megawidget collections, Tk frameworks, OO-like widget libraries, alternative geometry managers](#megawidget-collections,-tk-frameworks,-oo-like-widget-libraries,-alternative-geometry-managers)
+    - [Megawidgets](#megawidgets)
+    - [Ttk themes](#ttk-themes)
+    - [Math](#math)
+    - [Foreign interface and wrapping of C functions](#foreign-interface-and-wrapping-of-c-functions)
+    - [OS API](#os-api)
+    - [Debugging](#debugging)
+    - [PDF processing](#pdf-processing)
+    - [Misc](#misc)
+ 
 
 ## Major sources
 
