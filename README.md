@@ -2,7 +2,7 @@
 List of links for tcl/tk packages and resources that I found useful.
 Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
 
-- [Major sources][Major sources]
+- [Major sources][#Major sources]
 - [Packages/extensions/libraries/tools][Packages/extensions/libraries/tools]
   - [Console enchancement][Console enchancement]
   - [Special format files readers/writers][Special format files readers/writers]
