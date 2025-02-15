@@ -81,7 +81,7 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
 ### Special format files readers/writers
   * **tclyaml**
       * A binding to the C-based libyaml parser library for YAML Ain't Markup Language.
-      * [tclyaml](https://core.tcl-lang.org/akupries/tclyaml/doc/trunk/doc/README.md)
+      * [Source repository](https://core.tcl-lang.org/akupries/tclyaml/doc/trunk/doc/README.md)
       * License: BSD license
       * Tcl/Tk version: 8.6/9.0
       * Type: C extension
@@ -89,7 +89,7 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
 
   * **rl_json**
       * Extends Tcl with a json value type and a command to manipulate json values directly.
-      * [rl_json](https://github.com/RubyLane/rl_json)
+      * [Source repository](https://github.com/RubyLane/rl_json)
       * License: Same as Tcl core
       * Tcl/Tk version: 8.6
       * Type: C extension
@@ -115,7 +115,7 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
 ### Documentation tools
   * **Ruff!**
       * Documentation generator from the Tcl source code
-      * [Source code](https://github.com/apnadkarni/ruff), 
+      * [Source repository](https://github.com/apnadkarni/ruff), 
         [Distribution download](https://sourceforge.net/projects/magicsplat/files/ruff/)
       * License: BSD-2-Clause license 
       * Tcl/Tk version: 8.6/9.0
@@ -123,7 +123,7 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
       * Documentation: [Ruff!](https://ruff.magicsplat.com/)
   * **tmdoc**
       * Literate programming with Tcl - embed Tcl code into Markdown or LaTeX documents with code evaluation.
-      * [Source code](https://github.com/mittelmark/tmdoc)
+      * [Source repository](https://github.com/mittelmark/tmdoc)
       * License: BSD-3-Clause license
       * Tcl/Tk version: 8.6/9.0
       * Type: pure Tcl
@@ -312,7 +312,14 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
       * Tcl/Tk version: 8.6/9.0
       * Type: C extension
       * Documentation: [tcl-cffi](https://cffi.magicsplat.com/)
-     
+  * **critcl**
+      * C Runtime In Tcl, CriTcl for short, a system to build C extension packages for Tcl on the fly, from C code embedded within Tcl scripts.
+      * [Source repository](https://github.com/andreas-kupries/critcl)
+      * License: Same as Tcl core
+      * Tcl/Tk version: 8.6/9.0
+      * Type: C extension
+      * Documentation: [critcl](https://andreas-kupries.github.io/critcl/)
+  
 ### OS API
   * **twapi**
       * The Tcl Windows API (TWAPI) extension provides access to the Windows API from within the Tcl scripting language.
