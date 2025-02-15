@@ -1,9 +1,29 @@
 # tcltkResources
 List of links for tcl/tk packages and resources that I found useful.
+Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
 
-## Major sources:
+- [Major sources][Major sources]
+- [Packages/extensions/libraries/tools][Packages/extensions/libraries/tools]
+  - [Console enchancement][Console enchancement]
+  - [Special format files readers/writers][Special format files readers/writers]
+  - [Network][Network]
+  - [Documentation tools][Documentation tools]
+  - [Arguments processing][Arguments processing]
+  - [Plotting][Plotting]
+  - [Megawidget collections, Tk frameworks, OO-like widget libraries, alternative geometry managers][Megawidget collections, Tk frameworks, OO-like widget libraries, alternative geometry managers]
+  - [Megawidgets][Megawidgets]
+  - [Ttk themes][Ttk themes]
+  - [Math][Math]
+  - [Foreign interface and wrapping of C functions][Foreign interface and wrapping of C functions]
+  - [OS API][OS API]
+  - [Debugging][Debugging]
+  - [PDF processing][PDF processing]
+  - [Misc][Misc]
+  
 
-  * Tcl/Tk sources
+## Major sources
+
+  * **Tcl/Tk sources**
       * Core repositories of Tcl/Tk
       * [Core repository](https://core.tcl-lang.org/index.html), 
         [Official download page](https://www.tcl-lang.org/software/tcltk/download.html), 
@@ -13,22 +33,22 @@ List of links for tcl/tk packages and resources that I found useful.
       * Tcl/Tk version: 8.6/9.0
       * Documentation: [Tcl/Tk8.6](https://www.tcl-lang.org/man/tcl8.6/contents.htm), 
         [Tcl/Tk9.0](https://www.tcl-lang.org/man/tcl9.0/)
-  * Tcllib
+  * **Tcllib**
       * Official Tcl-only collection of packages
       * [Core repository](https://core.tcl-lang.org/tcllib/doc/trunk/embedded/index.md)
       * License: MIT-compatible
       * Tcl/Tk version: 8.6/9.0
       * Documentation: [Table of content](https://core.tcl-lang.org/tcllib/doc/trunk/embedded/md/toc.md)
-  * Tklib
+  * **Tklib**
       * Official Tcl-only collection of packages for Tk GUI toolkit
       * [Core repository](https://core.tcl-lang.org/tklib/doc/trunk/embedded/index.md)
       * License: MIT-compatible
       * Tcl/Tk version: 8.6/9.0
       * Documentation: [Table of content](https://core.tcl-lang.org/tklib/doc/trunk/embedded/md/toc.md)
-  * Tcl/Tk for Windows
+  * **Tcl/Tk for Windows**
       * Batteries included distribution of prebuild Tcl/Tk binaries for Windows
       * [Magicsplat](https://www.magicsplat.com/tcl-installer/index.html)
-  * TEA3 (Tcl extension architecture)
+  * **TEA3 (Tcl extension architecture)**
       * A set of guidelines and techniques for the distribution, configuration, compilation, and installation of Tcl 
         extensions. TEA also provides a set of utilities that operate accordingly. 
       * [Latest version of sample extension](https://core.tcl-lang.org/sampleextension), 
@@ -41,8 +61,8 @@ List of links for tcl/tk packages and resources that I found useful.
 
 ## Packages/extensions/libraries/tools
 
-### Console enchancement:
-  * TkCon
+### Console enchancement
+  * **TkCon**
       * Interactive console written in pure Tcl, replacement for tclsh and wish.
       * [Latest version](https://github.com/bohagan1/TkCon)
       * License: MIT-compatible
@@ -50,7 +70,7 @@ List of links for tcl/tk packages and resources that I found useful.
       * Type: pure Tcl
       * Documentaion: [Original docs](https://tkcon.sourceforge.net/docs/index.html), 
         [tclwiki page](https://wiki.tcl-lang.org/page/Tkcon)
-  * tclreadline
+  * **tclreadline**
       * GNU readline for tcl
       * [Latest version](https://github.com/flightaware/tclreadline)
       * License: MIT-compatible
@@ -59,7 +79,7 @@ List of links for tcl/tk packages and resources that I found useful.
       * Documentation: see README
   
 ### Special format files readers/writers
-  * tclyaml
+  * **tclyaml**
       * A binding to the C-based libyaml parser library for YAML Ain't Markup Language.
       * [tclyaml](https://core.tcl-lang.org/akupries/tclyaml/doc/trunk/doc/README.md)
       * License: BSD license
@@ -67,14 +87,14 @@ List of links for tcl/tk packages and resources that I found useful.
       * Type: C extension
       * Documentation: [commands reference](https://core.tcl-lang.org/akupries/tclyaml/doc/trunk/embedded/md/doc/files/tclyaml.md)
 
-  * rl_json
+  * **rl_json**
       * Extends Tcl with a json value type and a command to manipulate json values directly.
       * [rl_json](https://github.com/RubyLane/rl_json)
       * License: Same as Tcl core
       * Tcl/Tk version: 8.6
       * Type: C extension
       * Documentation: see README
-  * tclcsv
+  * **tclcsv**
       * Tclcsv is a binary extension for reading and writing CSV format files.
       * [Source repository](https://github.com/apnadkarni/tcl-csv)
       * License: Custom, see sources
@@ -83,7 +103,7 @@ List of links for tcl/tk packages and resources that I found useful.
       * Documentation: [tclcsv](https://tclcsv.magicsplat.com/)
       
 ### Network
-  * TclTLS
+  * **TclTLS**
       * Transport Layer Security (TLS) Extension
       * [Source repository](https://github.com/bohagan1/TclTLS), for prebuilt Windows binaries use 
         [Magicsplat](https://www.magicsplat.com/tcl-installer/index.html) distribution.
@@ -93,7 +113,7 @@ List of links for tcl/tk packages and resources that I found useful.
       * Documentation: [TclTLS](https://core.tcl-lang.org/tcltls/wiki/Documentation)
   
 ### Documentation tools
-  * Ruff!
+  * **Ruff!**
       * Documentation generator from the Tcl source code
       * [Source code](https://github.com/apnadkarni/ruff), 
         [Distribution download](https://sourceforge.net/projects/magicsplat/files/ruff/)
@@ -101,7 +121,7 @@ List of links for tcl/tk packages and resources that I found useful.
       * Tcl/Tk version: 8.6/9.0
       * Type: pure Tcl
       * Documentation: [Ruff!](https://ruff.magicsplat.com/)
-  * tmdoc
+  * **tmdoc**
       * Literate programming with Tcl - embed Tcl code into Markdown or LaTeX documents with code evaluation.
       * [Source code](https://github.com/mittelmark/tmdoc)
       * License: BSD-3-Clause license
@@ -111,7 +131,7 @@ List of links for tcl/tk packages and resources that I found useful.
         [Package tutorial](http://htmlpreview.github.io/?https://github.com/mittelmark/tmdoc/blob/master/modules/tmdoc/tmdoc-tutorial.html)
 
 ### Arguments processing
-  * argparse
+  * **argparse**
       * A feature-heavy argument parser
       * [argparse.tcl](https://core.tcl.tk/tcllib/raw/argparse.tcl?filename=modules/argparse/argparse.tcl&ci=amg-argparse), 
         [pkgIndex.tcl](https://core.tcl.tk/tcllib/raw/pkgIndex.tcl?filename=modules/argparse/pkgIndex.tcl&ci=amg-argparse)
@@ -119,7 +139,7 @@ List of links for tcl/tk packages and resources that I found useful.
       * Tcl/Tk version: 8.6/9.0(modify `package require` in argparse.tcl)
       * Type: pure Tcl
       * Documentation: [tclwiki](https://wiki.tcl-lang.org/page/argparse)
-  * parse_args
+  * **parse_args**
       * A fast argument parser based on the patterns established by core Tcl.
       * [Source repository](https://github.com/RubyLane/parse_args)
       * License: Same as Tcl core
@@ -128,28 +148,28 @@ List of links for tcl/tk packages and resources that I found useful.
       * Documentation: see README
    
 ### Plotting
-  * ticklecharts
+  * **ticklecharts**
       * Tcl wrapper around Apache ECharts. 
       * [Source repository](https://github.com/nico-robert/ticklecharts)
       * License: MIT
       * Tcl/Tk version: 8.6/9.0
       * Type: pure Tcl (could be speed up with critcl)
       * Documentation: see README
-  * implotTk
+  * **implotTk**
       * Tcl bindings for Implot.
       * [Source repository](https://github.com/nico-robert/implottk)
       * License: MIT
       * Tcl/Tk version: 8.6
       * Type: pure Tcl
       * Documentation: see README
-  * tko::graph
+  * **tko::graph**
       * 2D graph for plotting X-Y coordinate data
       * [Source repository](https://chiselapp.com/user/rene/repository/tko/index)
       * License: BSD
       * Tcl/Tk version: 8.6/9.0
       * Type: C extension
       * Documentation: [tko::graph](https://chiselapp.com/user/rene/repository/tko/doc/trunk/doc/tko_graph.md)
-  * Plotchart
+  * **Plotchart**
       * Simple plotting and charting package
       * Part of Tcllib
       * License: Same as Tcllib
@@ -158,21 +178,21 @@ List of links for tcl/tk packages and resources that I found useful.
       * Documentation: [plotchart](https://core.tcl-lang.org/tklib/doc/trunk/embedded/md/tklib/files/modules/plotchart/plotchart.md)
 
 ### Megawidget collections, Tk frameworks, OO-like widget libraries, alternative geometry managers
-  * tko
+  * **tko**
       * oo class like widgets
       * [Source repository](https://chiselapp.com/user/rene/repository/tko/index)
       * License: BSD
       * Tcl/Tk version: 8.6/9.0
       * Type: C extension
       * Documentation: See source repository
-  * apave (pave)
+  * **apave (pave)**
       * Tcl/Tk library for GUI development
       * [Source repository](https://github.com/aplsimple/pave)
       * License: MIT
       * Tcl/Tk version: 8.6/9.0
       * Type: pure Tcl
       * Documentation: [apave](https://aplsimple.github.io/en/tcl/pave/)
-  * oowidgets
+  * **oowidgets**
       * Megawidget creation package using TclOO
       * [Source repository](https://github.com/mittelmark/oowidgets)
       * License: BSD-3-Clause license 
@@ -180,7 +200,7 @@ List of links for tcl/tk packages and resources that I found useful.
       * Type: pure Tcl
       * Documentation: [tutorial](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mittelmark/oowidgets/master/tutorial.html), 
         [manual](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mittelmark/oowidgets/master/oowidgets/oowidgets.html)
-  * BWidget
+  * **BWidget**
       * BWidget is a mega-widget package 
       * [Source repository](https://core.tcl-lang.org/bwidget/home)
       * License: Same as Tcl core
@@ -188,7 +208,7 @@ List of links for tcl/tk packages and resources that I found useful.
       * Type: pure Tcl
       * Documentation: [BWidget](https://core.tcl-lang.org/bwidget/doc/bwidget/BWman/index.html), for prebuilt Windows 
         binaries use [Magicsplat](https://www.magicsplat.com/tcl-installer/index.html) distribution.
-  * wob
+  * **wob**
       * Create widgets with their own Tcl object and their own interpreter.
       * [Source repository](https://github.com/ambaker1/wob)
       * License: MIT
@@ -197,14 +217,14 @@ List of links for tcl/tk packages and resources that I found useful.
       * Documentation: [wob](https://raw.githubusercontent.com/ambaker1/wob/main/doc/wob.pdf)
       
 ### Megawidgets
-  * Tablelist
+  * **Tablelist**
       * The multi-column listbox and tree widget package.
       * [Source repository](https://www.nemethi.de/), also included into Tklib
       * License: Same as Tcl core
       * Tcl/Tk version: 8.6/9.0
       * Type: pure Tcl
       * Documentation: [Tablelist](https://www.nemethi.de/tablelist/index.html)
-  * TkTreeCtrl
+  * **TkTreeCtrl**
       * Multi-column hierarchical listbox widget for Tk.
       * [Mantained repository with tcl 9 support](https://chiselapp.com/user/egavilan/repository/Tktreectrl-Tk9/index), 
         [Original unmaintained source repository](https://tktreectrl.sourceforge.net/), for prebuilt Windows binaries use 
@@ -213,7 +233,7 @@ List of links for tcl/tk packages and resources that I found useful.
       * Tcl/Tk version: 8.6/9.0
       * Type: C extension
       * Documentation: [TkTreeCtrl](https://tktreectrl.sourceforge.net/treectrl.html)
-  * TkTable
+  * **TkTable**
       * TkTable is a full-featured 2D table widget for Tk.
       * [Latest updated version source repository](https://github.com/bohagan1/TkTable)
         [Original unmaintained source repository](https://sourceforge.net/projects/tktable/) for prebuilt Windows binaries
@@ -222,21 +242,21 @@ List of links for tcl/tk packages and resources that I found useful.
       * Tcl/Tk version: 8.6/9.0
       * Type: C extension
       * Documentation: [TkTable](https://tktable.sourceforge.net/tktable/doc/tkTable.html)
-  * bartabs
+  * **bartabs**
       * Highly improved tab bar widget for Tcl/Tk.
       * [Source repository](https://github.com/aplsimple/bartabs)
       * License: MIT
       * Tcl/Tk version: 8.6/9.0
       * Type: pure Tcl
       * Documentation: [bartabs](https://aplsimple.github.io/en/tcl/bartabs/index.html)
-  * baltip
+  * **baltip**
       * Tcl/Tk package of tooltip and balloon.
       * [Source repository](https://github.com/aplsimple/baltip)
       * License: MIT
       * Tcl/Tk version: 8.6/9.0
       * Type: pure Tcl
       * Documentation: [baltip](https://aplsimple.github.io/en/tcl/baltip/baltip.html)
-  * playtkl
+  * **playtkl**
       * Testing scenarios for Tcl/Tk applications & playing macros.
       * [Source repository](https://github.com/aplsimple/playtkl)
       * License: MIT
@@ -245,7 +265,7 @@ List of links for tcl/tk packages and resources that I found useful.
       * Documentation: [playtkl](https://aplsimple.github.io/en/tcl/playtkl/playtkl.html)
 
 ### Ttk themes
-  * ale_themes
+  * **ale_themes**
       * It's a batch of Tcl/Tk themes.
       * [Source repository](https://github.com/aplsimple/ale_themes)
       * License: MIT
@@ -254,7 +274,7 @@ List of links for tcl/tk packages and resources that I found useful.
       * Documentation: see README
 
 ### Math
-  * VecTcl
+  * **VecTcl**
       * Provides a numerical array extension for Tcl with support for vectors, matrices and higher-rank tensors of 
         integers, floating point and complex numbers.
       * [Source repository](https://github.com/auriocus/VecTcl)
@@ -262,14 +282,14 @@ List of links for tcl/tk packages and resources that I found useful.
       * Tcl/Tk version: 8.6
       * Type: C extension
       * Documentation: [VecTcl](http://auriocus.github.io/VecTcl/)
-  * ndlist
+  * **ndlist**
       * A pure Tcl implementation of arbitrary rank tensors.
       * [Source repository](https://github.com/ambaker1/ndlist)
       * License: BSD-2-Clause license
       * Tcl/Tk version: 8.6/9.0
       * Type: pure Tcl
       * Documentation: [ndlist](https://raw.githubusercontent.com/ambaker1/ndlist/main/doc/ndlist.pdf)
-  * tclinterp
+  * **tclinterp**
       * Tcl wrapper for C interpolation routines
       * [Source repository](https://github.com/georgtree/tclinterp)
       * License: LGPL-2.1 license
@@ -278,14 +298,14 @@ List of links for tcl/tk packages and resources that I found useful.
       * Documentation: [tclinterp](https://georgtree.github.io/tclinterp/)
      
 ### Foreign interface and wrapping of C functions
-  * SWIG
+  * **SWIG**
       * SWIG is a software development tool that connects programs written in C and C++ with a variety of high-level 
         programming languages, including Tcl.
       * [Source repository](https://github.com/swig/swig), [Main website](https://www.swig.org/)
       * License: multiple licenses, including GPL. Code generated by SWIG, which is not governed by copyright.
       * Tcl/Tk version: 8.6/9.0
       * Documentation: [SWIG](https://www.swig.org/Doc4.3/SWIGDocumentation.html)
-  * tcl-cffi
+  * **tcl-cffi**
       * A Foreign Function Interface extension for Tcl.
       * [Source repository](https://github.com/apnadkarni/tcl-cffi)
       * License: BSD-2-Clause license
@@ -294,7 +314,7 @@ List of links for tcl/tk packages and resources that I found useful.
       * Documentation: [tcl-cffi](https://cffi.magicsplat.com/)
      
 ### OS API
-  * twapi
+  * **twapi**
       * The Tcl Windows API (TWAPI) extension provides access to the Windows API from within the Tcl scripting language.
       * [Source repository](https://github.com/apnadkarni/twapi)
       * License: Custom, see sources.
@@ -303,7 +323,7 @@ List of links for tcl/tk packages and resources that I found useful.
       * Documentation: [twapi](https://twapi.magicsplat.com/)
 
 ### Debugging
-  * flytrap
+  * **flytrap**
       * Tcl debugging tools.
       * [Source repository](https://github.com/ambaker1/flytrap)
       * License: MIT
@@ -311,14 +331,14 @@ List of links for tcl/tk packages and resources that I found useful.
       * Type: pure Tcl
       * Documentation: [flytrap](https://raw.githubusercontent.com/ambaker1/flytrap/main/doc/flytrap.pdf)
 
-### PDF
-  * tclfpdf
+### PDF processing
+  * **tclfpdf**
       * Port of tFPDF (PHP) by by Ian Back and Tycho Veltmeijer (modified version of FPDF by Olivier Plathey) to TCL.
       * [Source repository](https://github.com/lamuzzachiodi/tclfpdf)
       * License: Custom
       * Tcl/Tk version: 8.6/9.0
       * Type: pure Tcl
-  * pdf4tcl
+  * **pdf4tcl**
       * pdf4tcl is a tcl package for generating pdf files.
       * [Source repository](https://sourceforge.net/projects/pdf4tcl/)
       * License: BSD
@@ -327,7 +347,7 @@ List of links for tcl/tk packages and resources that I found useful.
       * Documentation: [pdf4tcl](https://pdf4tcl.sourceforge.net/pdf4tcl.html)
 
 ### Misc
-  * Github workflows for Tcl
+  * **Github workflows for Tcl**
       * Github action workflows for testing Tcl extensions.
       * [tcl-setup](https://github.com/apnadkarni/tcl-setup), 
         [tcl-build-extension](https://github.com/apnadkarni/tcl-build-extension)
