@@ -5,13 +5,13 @@ List of links for tcl/tk packages and resources
 
   * Tcl/Tk sources
       * Core repositories of Tcl/Tk
-      * [Core repository](https://core.tcl-lang.org/index.html) 
-        [Official download page](https://www.tcl-lang.org/software/tcltk/download.html) 
-        [Tk github mirror](https://github.com/tcltk/tk) 
+      * [Core repository](https://core.tcl-lang.org/index.html), 
+        [Official download page](https://www.tcl-lang.org/software/tcltk/download.html), 
+        [Tk github mirror](https://github.com/tcltk/tk), 
         [Tcl github mirror](https://github.com/tcltk/tcl)
       * License: MIT-compatible
       * Tcl/Tk version: 8.6/9.0
-      * Documentation: [Tcl/Tk8.6](https://www.tcl-lang.org/man/tcl8.6/contents.htm)
+      * Documentation: [Tcl/Tk8.6](https://www.tcl-lang.org/man/tcl8.6/contents.htm), 
         [Tcl/Tk9.0](https://www.tcl-lang.org/man/tcl9.0/)
   * Tcllib
       * Official Tcl-only collection of packages
@@ -31,15 +31,15 @@ List of links for tcl/tk packages and resources
   * TEA3 (Tcl extension architecture)
       * A set of guidelines and techniques for the distribution, configuration, compilation, and installation of Tcl 
         extensions. TEA also provides a set of utilities that operate accordingly. 
-      * [Latest version of sample extension](https://core.tcl-lang.org/sampleextension)
+      * [Latest version of sample extension](https://core.tcl-lang.org/sampleextension), 
         [Latest version on github with additional helper scripts](https://github.com/apnadkarni/tcl-extension-template)
       * License: MIT-compatible
       * Tcl/Tk version: 8.6/9.0
-      * Documentation: [tclwiki page](https://wiki.tcl-lang.org/page/TEA)
-        [sample extension wiki page](https://wiki.tcl-lang.org/page/SampleExtension)
-        [latest version 3 of TEA wiki page](https://wiki.tcl-lang.org/page/TEA3)
+      * Documentation: [tclwiki page](https://wiki.tcl-lang.org/page/TEA), 
+        [sample extension wiki page](https://wiki.tcl-lang.org/page/SampleExtension), 
+        [latest version 3 of TEA wiki page](https://wiki.tcl-lang.org/page/TEA3), 
 
-## Packages/extensions/libraries/tools outside the official sources:
+## Packages/extensions/libraries/tools
 
 ### Console enchancement:
   * TkCon
@@ -48,7 +48,7 @@ List of links for tcl/tk packages and resources
       * License: MIT-compatible
       * Tcl/Tk version: 8.6/9.0
       * Type: pure Tcl
-      * Documentaion: [Original docs](https://tkcon.sourceforge.net/docs/index.html)
+      * Documentaion: [Original docs](https://tkcon.sourceforge.net/docs/index.html), 
         [tclwiki page](https://wiki.tcl-lang.org/page/Tkcon)
   * tclreadline
       * GNU readline for tcl
@@ -58,7 +58,7 @@ List of links for tcl/tk packages and resources
       * Type: C extension
       * Documentation: see README
   
-### Configuration files reader/writer:
+### Configuration files reader/writer
   * tclyaml
       * A binding to the C-based libyaml parser library for YAML Ain't Markup Language.
       * [tclyaml](https://core.tcl-lang.org/akupries/tclyaml/doc/trunk/doc/README.md)
@@ -76,10 +76,10 @@ List of links for tcl/tk packages and resources
       * Documentation: see README
 
   
-### Documentation tools:
+### Documentation tools
   * Ruff!
       * Documentation generator from the Tcl source code
-      * [Source code](https://github.com/apnadkarni/ruff) 
+      * [Source code](https://github.com/apnadkarni/ruff), 
         [Distribution download](https://sourceforge.net/projects/magicsplat/files/ruff/)
       * License: BSD-2-Clause license 
       * Tcl/Tk version: 8.6/9.0
@@ -91,13 +91,13 @@ List of links for tcl/tk packages and resources
       * License: BSD-3-Clause license
       * Tcl/Tk version: 8.6/9.0
       * Type: pure Tcl
-      * Documentation: [Package manual](http://htmlpreview.github.io/?https://github.com/mittelmark/tmdoc/blob/master/modules/tmdoc/tmdoc.html)
+      * Documentation: [Package manual](http://htmlpreview.github.io/?https://github.com/mittelmark/tmdoc/blob/master/modules/tmdoc/tmdoc.html), 
         [Package tutorial](http://htmlpreview.github.io/?https://github.com/mittelmark/tmdoc/blob/master/modules/tmdoc/tmdoc-tutorial.html)
 
-### Arguments processing:
+### Arguments processing
   * argparse
       * A feature-heavy argument parser
-      * [argparse.tcl](https://core.tcl.tk/tcllib/raw/argparse.tcl?filename=modules/argparse/argparse.tcl&ci=amg-argparse)
+      * [argparse.tcl](https://core.tcl.tk/tcllib/raw/argparse.tcl?filename=modules/argparse/argparse.tcl&ci=amg-argparse), 
         [pkgIndex.tcl](https://core.tcl.tk/tcllib/raw/pkgIndex.tcl?filename=modules/argparse/pkgIndex.tcl&ci=amg-argparse)
       * License: Same as Tcl core
       * Tcl/Tk version: 8.6/9.0(modify `package require` in argparse.tcl)
@@ -111,7 +111,7 @@ List of links for tcl/tk packages and resources
       * Type: C extension
       * Documentation: see README
    
-### Plotting:
+### Plotting
   * ticklecharts
       * Tcl wrapper around Apache ECharts. 
       * [Source repository](https://github.com/nico-robert/ticklecharts)
@@ -141,10 +141,10 @@ List of links for tcl/tk packages and resources
       * Type: pure Tcl
       * Documentation: [plotchart](https://core.tcl-lang.org/tklib/doc/trunk/embedded/md/tklib/files/modules/plotchart/plotchart.md)
           
-### Misc:
+### Misc
   * Github workflows for Tcl
       * Github action workflows for testing Tcl extensions.
-      * [tcl-setup](https://github.com/apnadkarni/tcl-setup)
+      * [tcl-setup](https://github.com/apnadkarni/tcl-setup), 
         [tcl-build-extension](https://github.com/apnadkarni/tcl-build-extension)
       * License: MIT-compatible
       * Tcl/Tk version: 8.6/9.0
