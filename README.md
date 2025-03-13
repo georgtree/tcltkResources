@@ -5,6 +5,7 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
   - [Major sources](#major-sources)
   - [Packages/extensions/libraries/tools](#packagesextensionslibrariestools)
     - [Console enchancement](#console-enchancement)
+    - [Static analyzers](#static-analyzers)
     - [Special format files readers/writers](#special-format-files-readers-writers)
     - [Network](#network)
     - [Documentation tools](#documentation-tools)
