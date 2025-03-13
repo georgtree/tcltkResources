@@ -77,7 +77,17 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
       * Tcl/Tk version: 8.6/9.0
       * Type: C extension
       * Documentation: see README
-  
+
+### Static analyzers
+  * **nagelfar**
+      * Static code analyzer, supports custom syntax databases and plugins, supports code coverage analysis.
+      * [Latest version](https://sourceforge.net/projects/nagelfar/)
+      * License: GPLv2
+      * Tcl/Tk version: 8.6/9.0
+      * Type: pure Tcl
+      * Documentaion: [Original docs](https://nagelfar.sourceforge.net/), 
+        [tclwiki page](https://wiki.tcl-lang.org/page/Nagelfar)
+
 ### Special format files readers/writers
   * **tclyaml**
       * A binding to the C-based libyaml parser library for YAML Ain't Markup Language.
