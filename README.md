@@ -20,6 +20,8 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
     - [Debugging](#debugging)
     - [PDF processing](#pdf-processing)
     - [Misc](#misc)
+  - [IDEs/Editors](#ides-editors)
+    - [alited](#alited)
  
 
 ## Major sources
@@ -288,9 +290,10 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
   * **VecTcl**
       * Provides a numerical array extension for Tcl with support for vectors, matrices and higher-rank tensors of 
         integers, floating point and complex numbers.
-      * [Source repository](https://github.com/auriocus/VecTcl)
+      * [Source repository](https://github.com/auriocus/VecTcl), 
+        [Port to Tcl9](https://github.com/bgriffinfortytwo/VecTcl9/tree/abstractlist)
       * License: Same as Tcl core
-      * Tcl/Tk version: 8.6
+      * Tcl/Tk version: 8.6/9.0
       * Type: C extension
       * Documentation: [VecTcl](http://auriocus.github.io/VecTcl/)
   * **ndlist**
@@ -372,3 +375,11 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
       * License: MIT-compatible
       * Tcl/Tk version: 8.6/9.0
       * Documentation: see README
+
+## IDEs/Editors
+  * **alited**
+      * Text editor with main focus on Tcl/Tk projects. Written in pure Tcl, ideally suited for Tcl/Tk development.
+      * [Source repository](https://github.com/aplsimple/alited)
+      * License: MIT
+      * Tcl/Tk version: 8.6/9.0
+      * Documentation: [documentation](https://aplsimple.github.io/en/tcl/alited/)
