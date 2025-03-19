@@ -20,7 +20,7 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
     - [Debugging](#debugging)
     - [PDF processing](#pdf-processing)
     - [Misc](#misc)
-  - [IDEs/Editors](#ides-editors)
+  - [IDEs/Editors](#ideseditors)
     - [alited](#alited)
  
 
