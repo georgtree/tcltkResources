@@ -19,6 +19,7 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
     - [OS API](#os-api)
     - [Debugging](#debugging)
     - [PDF processing](#pdf-processing)
+    - [Distribution](#distribution)
     - [Misc](#misc)
   - [IDEs/Editors](#ideseditors)
     - [alited](#alited)
@@ -228,7 +229,13 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
       * Tcl/Tk version: 8.6/9.0
       * Type: pure Tcl
       * Documentation: [wob](https://raw.githubusercontent.com/ambaker1/wob/main/doc/wob.pdf)
-      
+  * **TKproE**
+      * Visual Tk designer
+      * [Source repository](https://sourceforge.net/projects/tkproe/)
+      * License: BSD
+      * Tcl/Tk version: 8.6/9.0
+      * Type: pure Tcl
+      * Documentation: [Documentation](https://tkproe.dengensys.com/)
 ### Megawidgets
   * **Tablelist**
       * The multi-column listbox and tree widget package.
@@ -366,6 +373,14 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
       * Tcl/Tk version: 8.6/9.0
       * Type: pure Tcl
       * Documentation: [pdf4tcl](https://pdf4tcl.sourceforge.net/pdf4tcl.html)
+      
+### Distribution
+  * **Freewrap**
+      * Tool for wrapping Tcl application to single executable
+      * [Source repository](https://sourceforge.net/projects/freewrap/) 
+      * License: MIT-compatible
+      * Tcl/Tk version: 8.6/9.0
+      * Documentation: [Documentation](https://freewrap.dengensys.com/)
 
 ### Misc
   * **Github workflows for Tcl**
