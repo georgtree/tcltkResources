@@ -398,6 +398,13 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
       * Tcl/Tk version: 8.6/9.0
       * Type: pure Tcl
       * Documentation: [flytrap](https://raw.githubusercontent.com/ambaker1/flytrap/main/doc/flytrap.pdf)
+  * **TclProDebug**
+      * Tcl interactive debugger
+      * [Source repository](https://github.com/apnadkarni/TclProDebug)
+      * License: Custom
+      * Tcl/Tk version: 8.6/9.0(not all features are supported)
+      * Type: C extension
+      * Documentation: See sources
 
 ### PDF processing
   * **tclfpdf**
