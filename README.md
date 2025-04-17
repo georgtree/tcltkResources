@@ -31,13 +31,13 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
 
   * **Tcl/Tk sources**
       * Core repositories of Tcl/Tk
-      * [Core repository](https://core.tcl-lang.org/index.html), 
-        [Official download page](https://www.tcl-lang.org/software/tcltk/download.html), 
-        [Tk github mirror](https://github.com/tcltk/tk), 
+      * [Core repository](https://core.tcl-lang.org/index.html),
+        [Official download page](https://www.tcl-lang.org/software/tcltk/download.html),
+        [Tk github mirror](https://github.com/tcltk/tk),
         [Tcl github mirror](https://github.com/tcltk/tcl)
       * License: MIT-compatible
       * Tcl/Tk version: 8.6/9.0
-      * Documentation: [Tcl/Tk8.6](https://www.tcl-lang.org/man/tcl8.6/contents.htm), 
+      * Documentation: [Tcl/Tk8.6](https://www.tcl-lang.org/man/tcl8.6/contents.htm),
         [Tcl/Tk9.0](https://www.tcl-lang.org/man/tcl9.0/)
   * **Tcllib**
       * Official Tcl-only collection of packages
@@ -55,14 +55,14 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
       * Batteries included distribution of prebuild Tcl/Tk binaries for Windows
       * [Magicsplat](https://www.magicsplat.com/tcl-installer/index.html)
   * **TEA3 (Tcl extension architecture)**
-      * A set of guidelines and techniques for the distribution, configuration, compilation, and installation of Tcl 
-        extensions. TEA also provides a set of utilities that operate accordingly. 
-      * [Latest version of sample extension](https://core.tcl-lang.org/sampleextension), 
+      * A set of guidelines and techniques for the distribution, configuration, compilation, and installation of Tcl
+        extensions. TEA also provides a set of utilities that operate accordingly.
+      * [Latest version of sample extension](https://core.tcl-lang.org/sampleextension),
         [Latest version on github with additional helper scripts](https://github.com/apnadkarni/tcl-extension-template)
       * License: MIT-compatible
       * Tcl/Tk version: 8.6/9.0
-      * Documentation: [tclwiki page](https://wiki.tcl-lang.org/page/TEA), 
-        [sample extension wiki page](https://wiki.tcl-lang.org/page/SampleExtension), 
+      * Documentation: [tclwiki page](https://wiki.tcl-lang.org/page/TEA),
+        [sample extension wiki page](https://wiki.tcl-lang.org/page/SampleExtension),
         [latest version 3 of TEA wiki page](https://wiki.tcl-lang.org/page/TEA3)
   * **Home of orphaned packages under Tcl Community Assosiation**
       * This Github organization, owned by the Tcl Community Association, hosts repositories for Tcl/Tk packages and
@@ -78,7 +78,7 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
       * License: MIT-compatible
       * Tcl/Tk version: 8.6/9.0
       * Type: pure Tcl
-      * Documentaion: [Original docs](https://tkcon.sourceforge.net/docs/index.html), 
+      * Documentaion: [Original docs](https://tkcon.sourceforge.net/docs/index.html),
         [tclwiki page](https://wiki.tcl-lang.org/page/Tkcon)
   * **tclreadline**
       * GNU readline for tcl
@@ -95,7 +95,7 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
       * License: GPLv2
       * Tcl/Tk version: 8.6/9.0
       * Type: pure Tcl
-      * Documentaion: [Original docs](https://nagelfar.sourceforge.net/), 
+      * Documentaion: [Original docs](https://nagelfar.sourceforge.net/),
         [tclwiki page](https://wiki.tcl-lang.org/page/Nagelfar)
 
 ### Special format files readers/writers
@@ -106,7 +106,6 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
       * Tcl/Tk version: 8.6/9.0
       * Type: C extension
       * Documentation: [commands reference](https://core.tcl-lang.org/akupries/tclyaml/doc/trunk/embedded/md/doc/files/tclyaml.md)
-
   * **rl_json**
       * Extends Tcl with a json value type and a command to manipulate json values directly.
       * [Source repository](https://github.com/RubyLane/rl_json)
@@ -121,23 +120,42 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
       * Tcl/Tk version: 8.6/9.0
       * Type: C extension
       * Documentation: [tclcsv](https://tclcsv.magicsplat.com/)
-      
+
+### Work with data
+  * **tarray**
+      * The tarray (typed array) extension implements two new Tcl collection data types — columns and tables. Typed
+        arrays store elements of a specific data type in native format and provide some features that are not built into
+        lists and dictionaries
+      * [Source repository](https://github.com/apnadkarni/tarray)
+      * License: BSD-2-Clause license
+      * Tcl/Tk version: 8.6/9.0
+      * Type: C extension
+      * Documentation: [tarray](https://tarray.magicsplat.com/introduction.html)
+  * **xtal**
+      * The (eXtended typed array language) Xtal (pronounced Crystal) is an alternative to Tcl commands for working with
+        collections (lists, typed array columns and tables).
+      * [Source repository](https://github.com/apnadkarni/tcl-xtal)
+      * License: BSD-2-Clause license
+      * Tcl/Tk version: 8.6/9.0
+      * Type: C extension
+      * Documentation: [xtal](https://tarray.magicsplat.com/xtal_lang.html#chap_xtal_lang)
+
 ### Network
   * **TclTLS**
       * Transport Layer Security (TLS) Extension
-      * [Source repository](https://github.com/bohagan1/TclTLS), for prebuilt Windows binaries use 
+      * [Source repository](https://github.com/bohagan1/TclTLS), for prebuilt Windows binaries use
         [Magicsplat](https://www.magicsplat.com/tcl-installer/index.html) distribution.
       * License: Same as Tcl core
       * Tcl/Tk version: 8.6/9.0
       * Type: C extension
       * Documentation: [TclTLS](https://core.tcl-lang.org/tcltls/wiki/Documentation)
-  
+
 ### Documentation tools
   * **Ruff!**
       * Documentation generator from the Tcl source code
-      * [Source repository](https://github.com/apnadkarni/ruff), 
+      * [Source repository](https://github.com/apnadkarni/ruff),
         [Distribution download](https://sourceforge.net/projects/magicsplat/files/ruff/)
-      * License: BSD-2-Clause license 
+      * License: BSD-2-Clause license
       * Tcl/Tk version: 8.6/9.0
       * Type: pure Tcl
       * Documentation: [Ruff!](https://ruff.magicsplat.com/)
@@ -147,13 +165,13 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
       * License: BSD-3-Clause license
       * Tcl/Tk version: 8.6/9.0
       * Type: pure Tcl
-      * Documentation: [Package manual](http://htmlpreview.github.io/?https://github.com/mittelmark/tmdoc/blob/master/modules/tmdoc/tmdoc.html), 
+      * Documentation: [Package manual](http://htmlpreview.github.io/?https://github.com/mittelmark/tmdoc/blob/master/modules/tmdoc/tmdoc.html),
         [Package tutorial](http://htmlpreview.github.io/?https://github.com/mittelmark/tmdoc/blob/master/modules/tmdoc/tmdoc-tutorial.html)
 
 ### Arguments processing
   * **argparse**
       * A feature-heavy argument parser
-      * [argparse.tcl](https://core.tcl.tk/tcllib/raw/argparse.tcl?filename=modules/argparse/argparse.tcl&ci=amg-argparse), 
+      * [argparse.tcl](https://core.tcl.tk/tcllib/raw/argparse.tcl?filename=modules/argparse/argparse.tcl&ci=amg-argparse),
         [pkgIndex.tcl](https://core.tcl.tk/tcllib/raw/pkgIndex.tcl?filename=modules/argparse/pkgIndex.tcl&ci=amg-argparse)
       * License: Same as Tcl core
       * Tcl/Tk version: 8.6/9.0(modify `package require` in argparse.tcl)
@@ -166,10 +184,10 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
       * Tcl/Tk version: 8.6
       * Type: C extension
       * Documentation: see README
-   
+
 ### Plotting
   * **ticklecharts**
-      * Tcl wrapper around Apache ECharts. 
+      * Tcl wrapper around Apache ECharts.
       * [Source repository](https://github.com/nico-robert/ticklecharts)
       * License: MIT
       * Tcl/Tk version: 8.6/9.0
@@ -215,18 +233,18 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
   * **oowidgets**
       * Megawidget creation package using TclOO
       * [Source repository](https://github.com/mittelmark/oowidgets)
-      * License: BSD-3-Clause license 
+      * License: BSD-3-Clause license
       * Tcl/Tk version: 8.6/9.0
       * Type: pure Tcl
-      * Documentation: [tutorial](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mittelmark/oowidgets/master/tutorial.html), 
+      * Documentation: [tutorial](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mittelmark/oowidgets/master/tutorial.html),
         [manual](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mittelmark/oowidgets/master/oowidgets/oowidgets.html)
   * **BWidget**
-      * BWidget is a mega-widget package 
+      * BWidget is a mega-widget package
       * [Source repository](https://core.tcl-lang.org/bwidget/home)
       * License: Same as Tcl core
       * Tcl/Tk version: 8.6/9.0
       * Type: pure Tcl
-      * Documentation: [BWidget](https://core.tcl-lang.org/bwidget/doc/bwidget/BWman/index.html), for prebuilt Windows 
+      * Documentation: [BWidget](https://core.tcl-lang.org/bwidget/doc/bwidget/BWman/index.html), for prebuilt Windows
         binaries use [Magicsplat](https://www.magicsplat.com/tcl-installer/index.html) distribution.
   * **wob**
       * Create widgets with their own Tcl object and their own interpreter.
@@ -242,6 +260,13 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
       * Tcl/Tk version: 8.6/9.0
       * Type: pure Tcl
       * Documentation: [Documentation](https://tkproe.dengensys.com/)
+  * **TkDND**
+      * TkDND is an extension that adds native drag & drop capabilities to the Tk toolkit 
+      * [Source repository](https://github.com/petasis/tkdnd)
+      * License: Custom MIT compatible
+      * Tcl/Tk version: 8.6/9.0
+      * Type: C extension
+      * Documentation: See sources
 ### Megawidgets
   * **Tablelist**
       * The multi-column listbox and tree widget package.
@@ -252,8 +277,8 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
       * Documentation: [Tablelist](https://www.nemethi.de/tablelist/index.html)
   * **TkTreeCtrl**
       * Multi-column hierarchical listbox widget for Tk.
-      * [Mantained repository with tcl 9 support](https://github.com/tcltk-depot/tktreectrl), 
-        [Original unmaintained source repository](https://tktreectrl.sourceforge.net/), for prebuilt Windows binaries use 
+      * [Mantained repository with tcl 9 support](https://github.com/tcltk-depot/tktreectrl),
+        [Original unmaintained source repository](https://tktreectrl.sourceforge.net/), for prebuilt Windows binaries use
         [Magicsplat](https://www.magicsplat.com/tcl-installer/index.html) distribution.
       * License: BSD License
       * Tcl/Tk version: 8.6/9.0
@@ -301,9 +326,9 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
 
 ### Math
   * **VecTcl**
-      * Provides a numerical array extension for Tcl with support for vectors, matrices and higher-rank tensors of 
+      * Provides a numerical array extension for Tcl with support for vectors, matrices and higher-rank tensors of
         integers, floating point and complex numbers.
-      * [Source repository](https://github.com/auriocus/VecTcl), 
+      * [Source repository](https://github.com/auriocus/VecTcl),
         [Port to Tcl9](https://github.com/bgriffinfortytwo/VecTcl9/tree/abstractlist)
       * License: Same as Tcl core
       * Tcl/Tk version: 8.6/9.0
@@ -323,10 +348,10 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
       * Tcl/Tk version: 8.6/9.0
       * Type: C extension
       * Documentation: [tclinterp](https://georgtree.github.io/tclinterp/)
-     
+
 ### Foreign interface and wrapping of C functions
   * **SWIG**
-      * SWIG is a software development tool that connects programs written in C and C++ with a variety of high-level 
+      * SWIG is a software development tool that connects programs written in C and C++ with a variety of high-level
         programming languages, including Tcl.
       * [Source repository](https://github.com/swig/swig), [Main website](https://www.swig.org/)
       * License: multiple licenses, including GPL. Code generated by SWIG, which is not governed by copyright.
@@ -340,7 +365,7 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
       * Type: C extension
       * Documentation: [tcl-cffi](https://cffi.magicsplat.com/)
   * **critcl**
-      * C Runtime In Tcl, CriTcl for short, a system to build C extension packages for Tcl on the fly, from C code 
+      * C Runtime In Tcl, CriTcl for short, a system to build C extension packages for Tcl on the fly, from C code
         embedded within Tcl scripts.
       * [Source repository](https://github.com/andreas-kupries/critcl)
       * License: Same as Tcl core
@@ -349,7 +374,7 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
       * Documentation: [critcl](https://andreas-kupries.github.io/critcl/)
 ### Bridges to other languages
   * **tohil**
-      * Tohil is simultaneously a Python extension and a TCL extension that makes it possible to effortlessly call 
+      * Tohil is simultaneously a Python extension and a TCL extension that makes it possible to effortlessly call
         bidirectionally between Tcl and Python, targeting Tcl 8.6+ and Python 3.6+
       * [Source repository](https://github.com/flightaware/tohil)
       * License: BSD-3-Clause license
@@ -388,26 +413,33 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
       * Tcl/Tk version: 8.6/9.0
       * Type: pure Tcl
       * Documentation: [pdf4tcl](https://pdf4tcl.sourceforge.net/pdf4tcl.html)
-      
+
 ### Distribution
   * **Freewrap**
       * Tool for wrapping Tcl application to single executable
-      * [Source repository](https://sourceforge.net/projects/freewrap/) 
+      * [Source repository](https://sourceforge.net/projects/freewrap/)
       * License: MIT-compatible
       * Tcl/Tk version: 8.6/9.0
       * Documentation: [Documentation](https://freewrap.dengensys.com/)
 ### Language extension
   * **TclX**
-      *  TclX provides additional interfaces to the operating system, and adds many new programming constructs, text 
+      * TclX provides additional interfaces to the operating system, and adds many new programming constructs, text
          manipulation tools, and debugging tools.
       * [Source repository](https://github.com/tcltk-depot/tclx)
       * License: BSD
       * Tcl/Tk version: 8.6/9.0
       * Documentation: See sources
+  * **tcl-promise**
+      * Promises are concurrency primitives that simplify asynchronous programming by allowing you to write the code in
+        a sequential style. This project implements promises for the Tcl language.
+      * [Source repository](https://github.com/apnadkarni/tcl-promise)
+      * License: BSD
+      * Tcl/Tk version: 8.6/9.0
+      * Documentation: [tcl-promise](https://tcl-promise.magicsplat.com/)
 ### Misc
   * **Github workflows for Tcl**
       * Github action workflows for testing Tcl extensions.
-      * [tcl-setup](https://github.com/apnadkarni/tcl-setup), 
+      * [tcl-setup](https://github.com/apnadkarni/tcl-setup),
         [tcl-build-extension](https://github.com/apnadkarni/tcl-build-extension)
       * License: MIT-compatible
       * Tcl/Tk version: 8.6/9.0
