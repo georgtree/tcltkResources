@@ -16,14 +16,16 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
     - [Ttk themes](#ttk-themes)
     - [Math](#math)
     - [Foreign interface and wrapping of C functions](#foreign-interface-and-wrapping-of-c-functions)
+    - [Bridges to other languages](#bridges-to-other-languages)
     - [OS API](#os-api)
     - [Debugging](#debugging)
     - [PDF processing](#pdf-processing)
     - [Distribution](#distribution)
+    - [Language extension](#language-extension)
     - [Misc](#misc)
   - [IDEs/Editors](#ideseditors)
     - [alited](#alited)
- 
+
 
 ## Major sources
 
@@ -61,7 +63,11 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
       * Tcl/Tk version: 8.6/9.0
       * Documentation: [tclwiki page](https://wiki.tcl-lang.org/page/TEA), 
         [sample extension wiki page](https://wiki.tcl-lang.org/page/SampleExtension), 
-        [latest version 3 of TEA wiki page](https://wiki.tcl-lang.org/page/TEA3), 
+        [latest version 3 of TEA wiki page](https://wiki.tcl-lang.org/page/TEA3)
+  * **Home of orphaned packages under Tcl Community Assosiation**
+      * This Github organization, owned by the Tcl Community Association, hosts repositories for Tcl/Tk packages and
+        applications, in particular those that are no longer maintained by the original author(s).
+      * [tcltk-depot](https://github.com/tcltk-depot)
 
 ## Packages/extensions/libraries/tools
 
@@ -246,7 +252,7 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
       * Documentation: [Tablelist](https://www.nemethi.de/tablelist/index.html)
   * **TkTreeCtrl**
       * Multi-column hierarchical listbox widget for Tk.
-      * [Mantained repository with tcl 9 support](https://chiselapp.com/user/egavilan/repository/Tktreectrl-Tk9/index), 
+      * [Mantained repository with tcl 9 support](https://github.com/tcltk-depot/tktreectrl), 
         [Original unmaintained source repository](https://tktreectrl.sourceforge.net/), for prebuilt Windows binaries use 
         [Magicsplat](https://www.magicsplat.com/tcl-installer/index.html) distribution.
       * License: BSD License
@@ -334,13 +340,22 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
       * Type: C extension
       * Documentation: [tcl-cffi](https://cffi.magicsplat.com/)
   * **critcl**
-      * C Runtime In Tcl, CriTcl for short, a system to build C extension packages for Tcl on the fly, from C code embedded within Tcl scripts.
+      * C Runtime In Tcl, CriTcl for short, a system to build C extension packages for Tcl on the fly, from C code 
+        embedded within Tcl scripts.
       * [Source repository](https://github.com/andreas-kupries/critcl)
       * License: Same as Tcl core
       * Tcl/Tk version: 8.6/9.0
       * Type: C extension
       * Documentation: [critcl](https://andreas-kupries.github.io/critcl/)
-  
+### Bridges to other languages
+  * **tohil**
+      * Tohil is simultaneously a Python extension and a TCL extension that makes it possible to effortlessly call 
+        bidirectionally between Tcl and Python, targeting Tcl 8.6+ and Python 3.6+
+      * [Source repository](https://github.com/flightaware/tohil)
+      * License: BSD-3-Clause license
+      * Tcl/Tk version: 8.6/9.0(?)
+      * Type: C extension
+      * Documentation: [tohil](https://flightaware.github.io/tohil-docs/)
 ### OS API
   * **twapi**
       * The Tcl Windows API (TWAPI) extension provides access to the Windows API from within the Tcl scripting language.
@@ -381,7 +396,14 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
       * License: MIT-compatible
       * Tcl/Tk version: 8.6/9.0
       * Documentation: [Documentation](https://freewrap.dengensys.com/)
-
+### Language extension
+  * **TclX**
+      *  TclX provides additional interfaces to the operating system, and adds many new programming constructs, text 
+         manipulation tools, and debugging tools.
+      * [Source repository](https://github.com/tcltk-depot/tclx)
+      * License: BSD
+      * Tcl/Tk version: 8.6/9.0
+      * Documentation: See sources
 ### Misc
   * **Github workflows for Tcl**
       * Github action workflows for testing Tcl extensions.
