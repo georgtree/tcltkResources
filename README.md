@@ -207,6 +207,13 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
       * Tcl/Tk version: 8.6/9.0
       * Type: C extension
       * Documentation: [tko::graph](https://chiselapp.com/user/rene/repository/tko/doc/trunk/doc/tko_graph.md)
+  * **rbc**
+      * Refactored BLT Components
+      * [Source repository](https://chiselapp.com/user/egavilan/repository/rbc-tk9/home)
+      * License: BSD
+      * Tcl/Tk version: 9.0
+      * Type: C extension
+      * Documentation: See sources
   * **Plotchart**
       * Simple plotting and charting package
       * Part of Tcllib
