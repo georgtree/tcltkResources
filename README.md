@@ -274,6 +274,13 @@ Focus is mainly on maintainted tools and packages with Tcl/TK 9.0 support.
       * Tcl/Tk version: 8.6/9.0
       * Type: C extension
       * Documentation: See sources
+  * **Gub**
+      * The World's Fastest Gui Builder. 
+      * [Source repository](https://chiselapp.com/user/stwo/repository/gub/index)
+      * License: Custom MIT compatible
+      * Tcl/Tk version: 8.6/9.0
+      * Type: pure Tcl
+      * Documentation: See sources
 ### Megawidgets
   * **Tablelist**
       * The multi-column listbox and tree widget package.
